@@ -1,0 +1,5 @@
+i = int(str.format('{}{}','1'*20,'0'*20), 2)
+ii = int(str.format('{}{}','0'*20,'1'*20), 2)
+print(i-ii)
+print(i)
+print(ii)
